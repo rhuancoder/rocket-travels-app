@@ -13,6 +13,7 @@
 		A74CE54D2B8E9DC400153EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74CE54B2B8E9DC400153EF6 /* Main.storyboard */; };
 		A74CE54F2B8E9DC500153EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74CE54E2B8E9DC500153EF6 /* Assets.xcassets */; };
 		A74CE5522B8E9DC500153EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74CE5502B8E9DC500153EF6 /* LaunchScreen.storyboard */; };
+		A76D8AFB2B910BDF008DB25A /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76D8AFA2B910BDF008DB25A /* HomeTableViewHeader.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A74CE54E2B8E9DC500153EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74CE5512B8E9DC500153EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74CE5532B8E9DC500153EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76D8AFA2B910BDF008DB25A /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A74CE54E2B8E9DC500153EF6 /* Assets.xcassets */,
 				A74CE5502B8E9DC500153EF6 /* LaunchScreen.storyboard */,
 				A74CE5532B8E9DC500153EF6 /* Info.plist */,
+				A76D8AFA2B910BDF008DB25A /* HomeTableViewHeader.xib */,
 			);
 			path = RocketTravels;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74CE5522B8E9DC500153EF6 /* LaunchScreen.storyboard in Resources */,
+				A76D8AFB2B910BDF008DB25A /* HomeTableViewHeader.xib in Resources */,
 				A74CE54F2B8E9DC500153EF6 /* Assets.xcassets in Resources */,
 				A74CE54D2B8E9DC400153EF6 /* Main.storyboard in Resources */,
 			);
