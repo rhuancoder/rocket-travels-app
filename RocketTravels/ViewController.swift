@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         travelsTableView.dataSource = self
         travelsTableView.delegate = self
+        
+        view.backgroundColor = UIColor(red: 30/255, green: 59/255, blue: 119/255, alpha: 1)
     }
 }
 
