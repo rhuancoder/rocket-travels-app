@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73CE1032B96990F00737F76 /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CE1012B96990F00737F76 /* TravelTableViewCell.swift */; };
+		A73CE1042B96990F00737F76 /* TravelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73CE1022B96990F00737F76 /* TravelTableViewCell.xib */; };
 		A74CE5462B8E9DC400153EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CE5452B8E9DC400153EF6 /* AppDelegate.swift */; };
 		A74CE5482B8E9DC400153EF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CE5472B8E9DC400153EF6 /* SceneDelegate.swift */; };
 		A74CE54A2B8E9DC400153EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CE5492B8E9DC400153EF6 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A73CE1012B96990F00737F76 /* TravelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
+		A73CE1022B96990F00737F76 /* TravelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TravelTableViewCell.xib; sourceTree = "<group>"; };
 		A74CE5422B8E9DC400153EF6 /* RocketTravels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketTravels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74CE5452B8E9DC400153EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A74CE5472B8E9DC400153EF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A73CE1002B9698AE00737F76 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A73CE1012B96990F00737F76 /* TravelTableViewCell.swift */,
+				A73CE1022B96990F00737F76 /* TravelTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		A749E5DF2B951048007D6140 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +76,7 @@
 				A74CE5492B8E9DC400153EF6 /* ViewController.swift */,
 				A74CE54B2B8E9DC400153EF6 /* Main.storyboard */,
 				A749E5E22B9510DF007D6140 /* Header */,
+				A73CE1002B9698AE00737F76 /* Cells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +189,7 @@
 				A76D8AFB2B910BDF008DB25A /* HomeTableViewHeader.xib in Resources */,
 				A74CE54F2B8E9DC500153EF6 /* Assets.xcassets in Resources */,
 				A74CE54D2B8E9DC400153EF6 /* Main.storyboard in Resources */,
+				A73CE1042B96990F00737F76 /* TravelTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +203,7 @@
 				A74CE54A2B8E9DC400153EF6 /* ViewController.swift in Sources */,
 				A7D0B6032B9293C800A83A8C /* HomeTableViewHeader.swift in Sources */,
 				A74CE5462B8E9DC400153EF6 /* AppDelegate.swift in Sources */,
+				A73CE1032B96990F00737F76 /* TravelTableViewCell.swift in Sources */,
 				A74CE5482B8E9DC400153EF6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
