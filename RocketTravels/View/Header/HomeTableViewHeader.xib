@@ -15,11 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Jr-Lc-HfX" userLabel="Header View">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="230"/>
+                    <rect key="frame" x="-303.66666666666669" y="0.0" width="1000.3333333333335" height="230"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="rocket travels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mU-59-r46">
-                            <rect key="frame" x="28" y="36" width="148" height="33"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rocket travels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mU-59-r46">
+                            <rect key="frame" x="328" y="36" width="148" height="33"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -28,22 +27,24 @@
                     <color key="backgroundColor" red="0.1176470588" green="0.23137254900000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="230" id="Ul4-u9-mxg"/>
+                        <constraint firstItem="9mU-59-r46" firstAttribute="top" secondItem="3Jr-Lc-HfX" secondAttribute="top" constant="36" id="ovx-1y-iBP"/>
+                        <constraint firstAttribute="width" constant="1000" id="vgr-ZB-e3k"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qz9-9F-yiH" userLabel="Banner View">
-                    <rect key="frame" x="46" y="140" width="300" height="100"/>
+                    <rect key="frame" x="20" y="140" width="353" height="100"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aV4-z9-93R">
-                            <rect key="frame" x="0.0" y="0.0" width="159" height="100"/>
+                            <rect key="frame" x="0.0" y="0.0" width="187" height="100"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy the summer with:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCU-Kk-lQh">
-                                    <rect key="frame" x="16" y="7.9999999999999964" width="127" height="50.666666666666657"/>
+                                    <rect key="frame" x="16" y="7.9999999999999964" width="155" height="50.666666666666657"/>
                                     <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="18"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="exclusive offers, only on our app" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ee7-bw-vlq">
-                                    <rect key="frame" x="16" y="58.333333333333343" width="127" height="33.666666666666657"/>
+                                    <rect key="frame" x="16" y="58.333333333333343" width="155" height="33.666666666666657"/>
                                     <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="12"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
@@ -60,7 +61,7 @@
                             </constraints>
                         </view>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ferias" translatesAutoresizingMaskIntoConstraints="NO" id="HEy-2f-dWb">
-                            <rect key="frame" x="158" y="0.0" width="142" height="100"/>
+                            <rect key="frame" x="186" y="0.0" width="167" height="100"/>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -80,16 +81,17 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="Qz9-9F-yiH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="46" id="DxW-Of-uST"/>
-                <constraint firstItem="3Jr-Lc-HfX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="TWm-TK-0Mq"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Qz9-9F-yiH" secondAttribute="trailing" constant="47" id="afU-ZC-vds"/>
-                <constraint firstItem="3Jr-Lc-HfX" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ijl-H3-Nix"/>
+                <constraint firstItem="Qz9-9F-yiH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="DxW-Of-uST"/>
+                <constraint firstItem="9mU-59-r46" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24.333333333333314" id="a9E-vO-ayl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Qz9-9F-yiH" secondAttribute="trailing" constant="20" id="afU-ZC-vds"/>
+                <constraint firstItem="3Jr-Lc-HfX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dyO-PC-KUN"/>
                 <constraint firstItem="Qz9-9F-yiH" firstAttribute="bottom" secondItem="3Jr-Lc-HfX" secondAttribute="bottom" constant="10" id="uN0-D0-GqX"/>
                 <constraint firstItem="3Jr-Lc-HfX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vcH-PS-DeJ"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="bannerImageView" destination="HEy-2f-dWb" id="x2r-03-0Mc"/>
+                <outlet property="bannerView" destination="Qz9-9F-yiH" id="JbR-Uq-g0y"/>
                 <outlet property="headerView" destination="3Jr-Lc-HfX" id="TaG-6R-3IA"/>
                 <outlet property="titleLabel" destination="9mU-59-r46" id="vyw-bJ-3ZG"/>
             </connections>
