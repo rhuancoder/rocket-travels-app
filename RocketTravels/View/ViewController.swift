@@ -35,7 +35,15 @@ extension ViewController: UITableViewDataSource {
             fatalError("error to create TravelTableViewCell")
         }
         
-        return travelCell
+        let viewModel = travelsSession?[indexPath.section]
+        
+        switch viewModel?.type {
+        case .highlights:
+            travelCell.setCell(viewModel?.travels[indexPath.row])
+            return travelCell
+        default:
+            return UITableViewCell()
+        }
     }
 }
 
