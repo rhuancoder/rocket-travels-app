@@ -20,7 +20,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ygi-Sg-lCL" userLabel="Background View">
                         <rect key="frame" x="10" y="10" width="300" height="380"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campos-jordao" translatesAutoresizingMaskIntoConstraints="NO" id="eG2-Fn-pYU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eG2-Fn-pYU">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="O6S-jV-LSO"/>
@@ -111,11 +111,20 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundViewCell" destination="ygi-Sg-lCL" id="d2D-ir-wK7"/>
+                <outlet property="cancellationStatusLabel" destination="ZGV-cU-1wG" id="Mrt-Ka-AI8"/>
+                <outlet property="priceWithoutDiscountLabel" destination="E84-cv-paG" id="Uwn-U6-DYE"/>
+                <outlet property="travelImage" destination="eG2-Fn-pYU" id="YaF-fU-OJm"/>
+                <outlet property="travelNightsLabel" destination="pkd-9w-7vB" id="hEs-eA-KRL"/>
+                <outlet property="travelPriceLabel" destination="mJz-JX-rDV" id="lRS-HP-9pR"/>
+                <outlet property="travelSubtitleLabel" destination="UT0-Mh-uim" id="F4D-ew-Cdi"/>
+                <outlet property="travelTitleLabel" destination="jFN-H6-JlT" id="6Lb-gG-BqK"/>
+            </connections>
             <point key="canvasLocation" x="-64.122137404580144" y="-12.67605633802817"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="campos-jordao" width="1280" height="720"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

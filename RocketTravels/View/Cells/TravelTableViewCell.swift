@@ -9,15 +9,19 @@ import UIKit
 
 class TravelTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    // MARK: - IBOutlets
+    
+    @IBOutlet weak var backgroundViewCell: UIView!
+    @IBOutlet weak var travelImage: UIImageView!
+    @IBOutlet weak var travelTitleLabel: UILabel!
+    @IBOutlet weak var travelSubtitleLabel: UILabel!
+    @IBOutlet weak var travelNightsLabel: UILabel!
+    @IBOutlet weak var priceWithoutDiscountLabel: UILabel!
+    @IBOutlet weak var travelPriceLabel: UILabel!
+    @IBOutlet weak var cancellationStatusLabel: UILabel!
+    
     
 }
+
+
+
